@@ -1,6 +1,6 @@
 # BankNifty Dispersion Trading Strategy
 
-Volatility arbitrage backtest on BankNifty and its constituents (Jul–Dec 2017).
+Volatility arbitrage backtest on BankNifty and its constituents (Oct 2024 – Dec 2025).
 
 ---
 
@@ -10,7 +10,7 @@ Dispersion trading exploits the structural premium in index implied volatility r
 
 - **Index:** BANKNIFTY
 - **Constituents:** AXISBANK, HDFCBANK, ICICIBANK, KOTAKBANK, SBIN
-- **Period:** July – December 2017
+- **Period:** October – December 2025
 - **Risk-Free Rate:** 6% (RBI repo rate)
 
 ---
@@ -46,7 +46,7 @@ Custom vectorized Black-Scholes solver replacing `mibian`. Runs ~400,000 options
 
 ## Position Sizing
 
-NSE F&O official lot sizes (2017), scaled by index weight:
+NSE F&O official lot sizes (2025), scaled by index weight:
 
 ```
 Symbol        Lot Size    Weight    Lot x Weight
